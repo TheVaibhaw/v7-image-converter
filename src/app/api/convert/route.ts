@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
 
         const outputBuffer = await transformer.toBuffer();
 
-        return new NextResponse(outputBuffer, {
+        return new NextResponse(new Uint8Array(outputBuffer), {
             status: 200,
             headers: {
                 "Content-Type": `image/${targetFormat}`,

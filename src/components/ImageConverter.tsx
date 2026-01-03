@@ -132,8 +132,8 @@ export default function ImageConverter() {
                                                     key={fmt}
                                                     onClick={() => setTargetFormat(fmt)}
                                                     className={`py-2 px-3 rounded-lg text-sm font-bold uppercase transition-all ${targetFormat === fmt
-                                                            ? "bg-primary text-white shadow-lg"
-                                                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                                                        ? "bg-primary text-white shadow-lg"
+                                                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                                                         }`}
                                                 >
                                                     {fmt}
@@ -168,8 +168,8 @@ export default function ImageConverter() {
                                             </div>
                                             <a
                                                 href={convertedUrl}
-                                                download={`converted_image.${targetFormat}`}
-                                                className="w-full py-4 bg-green-600 text-white rounded-xl font-bold flex items-center justify-center space-x-2 hover:bg-green-700 transition-all shadow-xl shadow-green-600/20"
+                                                download={`v7_${Math.random().toString(36).substring(7)}.${targetFormat}`}
+                                                className="w-full py-4 bg-primary text-white rounded-xl font-bold flex items-center justify-center space-x-2 hover:bg-secondary transition-all shadow-xl shadow-primary/20"
                                             >
                                                 <Download className="w-5 h-5" />
                                                 <span>Download Image</span>

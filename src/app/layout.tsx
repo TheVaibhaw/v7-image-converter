@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "v7 Image Converter - Fast & Secure",
     description: "The ultimate free tool to convert images to any format instantly. Privacy-focused, no server storage.",
-    url: "https://v7-image-converter.vercel.app",
+    url: "http://tools.vaibhawkumarparashar.in/image-converter",
     siteName: "v7 Image Converter",
     images: [
       {
-        url: "/og-image.png",
+        url: "/image-converter/og-image.png",
         width: 1200,
         height: 630,
         alt: "v7 Image Converter Tool",
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
     title: "v7 Image Converter - Fast & Secure",
     description: "Convert images between any format for free. Fast, private, and secure.",
     creator: "@TheVaibhaw",
-    images: ["/og-image.png"],
+    images: ["/image-converter/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/image-converter/icon.png",
+    shortcut: "/image-converter/icon.png",
+    apple: "/image-converter/icon.png",
   },
 };
 
@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://v7-image-converter.vercel.app" />
+        <link rel="canonical" href="http://tools.vaibhawkumarparashar.in/image-converter" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -59,7 +59,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebApplication",
               "name": "v7 Image Converter",
-              "url": "https://v7-image-converter.vercel.app",
+              "url": "http://tools.vaibhawkumarparashar.in/image-converter",
               "description": "A modern, fast, and secure online image converter supporting multiple formats.",
               "applicationCategory": "MultimediaApplication",
               "operatingSystem": "All",

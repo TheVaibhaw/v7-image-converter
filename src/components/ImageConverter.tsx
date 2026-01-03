@@ -44,7 +44,7 @@ export default function ImageConverter() {
         formData.append("format", targetFormat);
 
         try {
-            const response = await fetch("/api/convert", {
+            const response = await fetch("/image-converter/api/convert", {
                 method: "POST",
                 body: formData,
             });

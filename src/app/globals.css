@@ -513,4 +513,14 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
-}
+}.hover\:bg-secondary:hover { background-color: var(--secondary); }
+.hover\:bg-gray-200:hover { background-color: #e5e7eb; }
+.hover\:bg-gray-50:hover { background-color: #f9fafb; }
+.hover\:underline:hover { text-decoration: underline; }
+.shadow-primary\/20 { box-shadow: 0 10px 15px -3px rgba(28, 77, 141, 0.2); }
+.disabled\:opacity-50:disabled { opacity: 0.5; }
+.disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+.bg-green-50 { background-color: #f0fdf4; }
+.text-green-500 { color: #22c55e; }
+.text-green-700 { color: #15803d; }
+.border-green-200 { border-color: #bbf7d0; }

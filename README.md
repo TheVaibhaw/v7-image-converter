@@ -3,7 +3,7 @@
 A modern, fast, and privacy-focused web application that allows users to convert images between multiple formats for free.
  
 ## Features
-- **Instant Conversion**: Convert images between JPG, PNG, WEBP, GIF, BMP, TIFF, and AVIF instantly.
+- **Instant Conversion**: Convert images between JPG, PNG, WEBP, GIF, BMP, TIFF, and AVIF instantly. 
 - **Privacy First**: Images are processed entirely in-memory and never stored on any server.
 - **Zero Registration**: Use the tool without creating an account or providing any personal data.
 - **High Quality**: Leverages the power of `sharp` for professional-grade image processing.

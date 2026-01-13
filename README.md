@@ -1,5 +1,5 @@
 # v7 Image Converter
-
+ 
 A modern, fast, and privacy-focused web application that allows users to convert images between multiple formats for free.
  
 ## Features

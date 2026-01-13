@@ -1,7 +1,7 @@
 # v7 Image Converter
 
 A modern, fast, and privacy-focused web application that allows users to convert images between multiple formats for free.
-
+ 
 ## Features
 - **Instant Conversion**: Convert images between JPG, PNG, WEBP, GIF, BMP, TIFF, and AVIF instantly.
 - **Privacy First**: Images are processed entirely in-memory and never stored on any server.
